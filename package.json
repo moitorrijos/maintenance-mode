@@ -1,0 +1,15 @@
+
+{
+  "name": "moitorrijos-maintenance-mode",
+  "version": "0.1.0",
+  "main": "moitorrijos-maintenance-mode.php",
+  "author": "Juan Moises Torrijos",
+  "scripts" : {
+    "start" : "grunt default" ,
+    "readme" : "grunt readme",
+    "i18n" : "grunt i18n"
+  },
+  "devDependencies": {
+    
+  }
+}
