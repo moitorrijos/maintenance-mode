@@ -16,8 +16,8 @@
 
 // Activate WordPress Maintenance Mode
 function moitorrijos_maintenance_mode() {
-  if ( !is_user_logged_in() && !is_page( 'nosotros' ) ) {
-    wp_redirect( '/nosotros' );
+  if ( !is_user_logged_in() && !is_page( 'soluciones-termicas' ) ) {
+    wp_redirect( '/soluciones-termicas' );
     exit();
   }
 }
