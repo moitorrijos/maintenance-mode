@@ -16,7 +16,7 @@
 
 // Activate WordPress Maintenance Mode
 function moitorrijos_maintenance_mode() {
-  if ( !is_user_logged_in() && !is_page( 'soluciones-termicas' ) ) {
+  if ( !is_user_logged_in() && !is_page( 'soluciones-termicas' ) && !is_page( 106 ) ) {
     wp_redirect( '/soluciones-termicas' );
     exit();
   }
